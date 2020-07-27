@@ -1,0 +1,14 @@
+@font-face{
+    font-family: beau;
+    src: url("../assets/fonts/beau.ttf")
+}
+// *{
+//     margin: 0;
+//     padding: 0;
+//     text-decoration: none;
+//     list-style: none;
+// }
+@import "./bootstrap/bootstrap.scss";
+body {
+    font-family: beau;
+}
