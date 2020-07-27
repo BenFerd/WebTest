@@ -2,13 +2,99 @@
     font-family: beau;
     src: url("../assets/fonts/beau.ttf")
 }
-// *{
-//     margin: 0;
-//     padding: 0;
-//     text-decoration: none;
-//     list-style: none;
-// }
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
 @import "./bootstrap/bootstrap.scss";
+$rose: #EA92B2;
+$senior: #1D4E89;
 body {
     font-family: beau;
+}
+.navbar{
+    max-width: 1110px;
+    height: 120px;
+    .logo{
+        display: flex;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    #logo {
+        width: 79.83px;
+        height: 69.06px;
+        margin-right: 16.41px;
+    }
+    .navbar-brand{
+        color: $senior;
+        font-size: 35px;
+        padding-bottom: 0;
+        span {
+            color: #1E1E1E;
+            font-size: 10px;
+            padding-top: 0;
+        }
+    }
+    #navbarSupportedContent{
+        flex-direction: column-reverse;
+    }
+    #navbar-main{
+        font-size: 15px;
+        align-self: flex-end;
+        a{
+            margin-left: 32px;
+        }
+    }
+    #navbar-secondary{
+        font-size: 13px;
+        align-self: flex-end;
+        a {
+            margin-right: 30px;
+        }
+        img{
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+    }
+}
+main{
+    background-color: #E5E5E5;
+}
+footer{
+    background: #FFFFFF;
+    height: 686px;
+    max-width: 1110px;
+    #bigLogo{
+        width: 145.4px;
+        height: 125.35px;
+    }
+    h1{
+        color: $senior;
+
+    }
+    h5{
+        font-size: 14px;
+        color: $rose;
+        text-transform: uppercase;
+    }
+    h4{
+        font-size: 18px;
+        color: $rose;
+        img{
+            margin-right: 10px;
+            width: 35px;
+            height: 30.17px;
+        }
+    }
+    .svg1{
+        height: 14.97px;
+        width: 15px;
+    }
+    .svg2{
+        height: 9.42px;
+        width: 15px;
+    }
 }
