@@ -42,7 +42,10 @@
   // Workaround for the image size bug in IE
   // See: https://github.com/twbs/bootstrap/pull/28855
   min-height: 1px;
-  padding: $card-spacer-x;
+  padding-top: $card-spacer-x;
+  padding-bottom: $card-spacer-x;
+  padding-right: $card-spacer-x;
+  
   color: $card-color;
 }
 
